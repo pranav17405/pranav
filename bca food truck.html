@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA FOOD TRUCK</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\Shree\Desktop\PROJECT\logo3.png" alt="Food Truck Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/bca%20food%20truck.html">Home</a></li>
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/menu.html"> menu</a></li>
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/about.html">About</a></li>
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/gallery.html">Gallery</a></li> 
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/review.html">Review</a></li>
+                <li><a href="file:///C:/Users/Shree/Desktop/PROJECT/contact.html?">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Our BCA FOOD TRUCK!</h1>
+        <p>Delicious food on the go!</p>
+    </section>
+
+    <div class="gallery-item">
+        <img src="C:\Users\Shree\Desktop\PROJECT\logo.jpg" alt="Food truck front" />
+
+        <footer>
+            <div class="footercontainer">
+              <div class="socialicon">
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://x.com/i/flow/login?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.google.co.in/"><i class="fa-brands fa-google-plus"></i></a>
+                  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+          </div> 
+            <p>© 2025 Bca Food Truck | Follow us on @Bcafoodtruk</p>
+          </footer>
+    <script >
+    function placeOrder() {
+        const item = document.getElementById('foodItem').value;
+        const quantity = document.getElementById('quantity').value;
+        const message = `You ordered ${quantity} ${item}(s). Thank you!`;
+    
+        document.getElementById('orderMessage').innerText = message;
+        alert(message);
+    }
+    </script>
+</body>
+</html>
